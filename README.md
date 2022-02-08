@@ -21,5 +21,5 @@ Hope everyone get & run faster to have fun with awesome AvaloniaUI =)<br/>
 | # | Package | Version |
 | ----------- | ----------- | ----------- |
 | 1 | .Net Core 3.1  | |
-| 2 | .Net Core 2.1 Standard Library | |
+| 2 | .Net 2.1 Standard Library | |
 | 3 | Avalonia | 0. 10.12 |
