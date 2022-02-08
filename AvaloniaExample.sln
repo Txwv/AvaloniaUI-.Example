@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlCatalog", "ControlCatalog\ControlCatalog.csproj", "{61CE7CB7-BBBB-4D85-B222-019ADD0C6BC0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlCatalog.NetCore", "ControlCatalog.NetCore\ControlCatalog.NetCore.csproj", "{626B59A8-4610-4F9B-8334-85FAC1412107}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniMvvm", "MiniMvvm\MiniMvvm.csproj", "{6859C7F2-ECE5-4C11-A44B-46452101AED8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlSamples", "SampleControls\ControlSamples.csproj", "{9A3340A7-2AE7-40F7-996D-955D952DD6D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{56A4731D-48B8-4649-8A3B-AD7C3840BB51}"
+	ProjectSection(SolutionItems) = preProject
+		build\AndroidWorkarounds.props = build\AndroidWorkarounds.props
+		build\ApiDiff.props = build\ApiDiff.props
+		build\avalonia.snk = build\avalonia.snk
+		build\Base.props = build\Base.props
+		build\Binding.props = build\Binding.props
+		build\BuildTargets.targets = build\BuildTargets.targets
+		build\CoreLibraries.props = build\CoreLibraries.props
+		build\EmbedXaml.props = build\EmbedXaml.props
+		build\HarfBuzzSharp.props = build\HarfBuzzSharp.props
+		build\JetBrains.Annotations.props = build\JetBrains.Annotations.props
+		build\JetBrains.dotMemoryUnit.props = build\JetBrains.dotMemoryUnit.props
+		build\LegacyProject.targets = build\LegacyProject.targets
+		build\Magick.NET-Q16-AnyCPU.props = build\Magick.NET-Q16-AnyCPU.props
+		build\MicroCom.targets = build\MicroCom.targets
+		build\Microsoft.CSharp.props = build\Microsoft.CSharp.props
+		build\Microsoft.Reactive.Testing.props = build\Microsoft.Reactive.Testing.props
+		build\Moq.props = build\Moq.props
+		build\NetCore.props = build\NetCore.props
+		build\NetFX.props = build\NetFX.props
+		build\NullableEnable.props = build\NullableEnable.props
+		build\ReactiveUI.props = build\ReactiveUI.props
+		build\readme.md = build\readme.md
+		build\ReferenceCoreLibraries.props = build\ReferenceCoreLibraries.props
+		build\Rx.props = build\Rx.props
+		build\SampleApp.props = build\SampleApp.props
+		build\SharedVersion.props = build\SharedVersion.props
+		build\SharpDX.props = build\SharpDX.props
+		build\SkiaSharp.props = build\SkiaSharp.props
+		build\SourceLink.props = build\SourceLink.props
+		build\System.Drawing.Common.props = build\System.Drawing.Common.props
+		build\System.Memory.props = build\System.Memory.props
+		build\UnitTests.NetCore.targets = build\UnitTests.NetCore.targets
+		build\UnitTests.NetFX.props = build\UnitTests.NetFX.props
+		build\XUnit.props = build\XUnit.props
+		build\xunit.runner.mono.json = build\xunit.runner.mono.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61CE7CB7-BBBB-4D85-B222-019ADD0C6BC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61CE7CB7-BBBB-4D85-B222-019ADD0C6BC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61CE7CB7-BBBB-4D85-B222-019ADD0C6BC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61CE7CB7-BBBB-4D85-B222-019ADD0C6BC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{626B59A8-4610-4F9B-8334-85FAC1412107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{626B59A8-4610-4F9B-8334-85FAC1412107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{626B59A8-4610-4F9B-8334-85FAC1412107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{626B59A8-4610-4F9B-8334-85FAC1412107}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6859C7F2-ECE5-4C11-A44B-46452101AED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6859C7F2-ECE5-4C11-A44B-46452101AED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6859C7F2-ECE5-4C11-A44B-46452101AED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6859C7F2-ECE5-4C11-A44B-46452101AED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A3340A7-2AE7-40F7-996D-955D952DD6D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A3340A7-2AE7-40F7-996D-955D952DD6D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A3340A7-2AE7-40F7-996D-955D952DD6D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A3340A7-2AE7-40F7-996D-955D952DD6D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B90EC101-B9DD-4051-8134-50DDAB6C177C}
+	EndGlobalSection
+EndGlobal
